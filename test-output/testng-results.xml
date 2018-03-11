@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="calculator suite" duration-ms="48346" started-at="2018-03-11T23:09:19Z" finished-at="2018-03-11T23:10:07Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="CalculatorFeatureTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="feature" class="com.thecalculatorsite.test.cucumber.CalculatorFeatureTest"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Calculator" duration-ms="48346" started-at="2018-03-11T23:09:19Z" finished-at="2018-03-11T23:10:07Z">
+      <class name="com.thecalculatorsite.test.cucumber.CalculatorFeatureTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="setUpClass" is-config="true" duration-ms="377" started-at="2018-03-11T23:09:19Z" finished-at="2018-03-11T23:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="init" is-config="true" duration-ms="2218" started-at="2018-03-11T23:09:20Z" finished-at="2018-03-11T23:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="feature" duration-ms="4790" started-at="2018-03-11T23:09:22Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-03-11T23:09:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Loan Payment Calculator Graphs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="clean(org.testng.ITestResult)[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="clean" is-config="true" duration-ms="3131" started-at="2018-03-11T23:09:27Z" finished-at="2018-03-11T23:09:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=CalculatorFeatureTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="init" is-config="true" duration-ms="2015" started-at="2018-03-11T23:09:30Z" finished-at="2018-03-11T23:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="feature" duration-ms="16703" started-at="2018-03-11T23:09:32Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-03-11T23:09:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Loan Payment Calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="clean(org.testng.ITestResult)[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="clean" is-config="true" duration-ms="3265" started-at="2018-03-11T23:09:49Z" finished-at="2018-03-11T23:09:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=CalculatorFeatureTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="init" is-config="true" duration-ms="1719" started-at="2018-03-11T23:09:52Z" finished-at="2018-03-11T23:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="feature" duration-ms="10497" started-at="2018-03-11T23:09:54Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-03-11T23:10:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Loan Payoff Calculator]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[java.lang.AssertionError: expected [$12.13] but found [dollar12.13]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [$12.13] but found [dollar12.13]
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+at com.thecalculatorsite.test.cucumber.CalculatorFeatureTest.feature(CalculatorFeatureTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.thecalculatorsite.framework.core.runner.Runner.run(Runner.java:53)
+at com.thecalculatorsite.framework.core.runner.Runner.main(Runner.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
+at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.AssertionError: expected [$12.13] but found [dollar12.13]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:442)
+at com.thecalculatorsite.stepdefs.CalculatorPageSteps.lambda$loanPayoffCalculationResultIs$2(CalculatorPageSteps.java:179)
+at java.util.Iterator.forEachRemaining(Iterator.java:116)
+at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+at com.thecalculatorsite.stepdefs.CalculatorPageSteps.loanPayoffCalculationResultIs(CalculatorPageSteps.java:178)
+at ✽.And loan payoff calculation result is:(loan.payoff.calc/loanPayoffCalculator.feature:65)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="clean(org.testng.ITestResult)[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="clean" is-config="true" duration-ms="3425" started-at="2018-03-11T23:10:04Z" finished-at="2018-03-11T23:10:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=FAILURE method=CalculatorFeatureTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.thecalculatorsite.test.cucumber.CalculatorFeatureTest@1ed4a90e]" name="tearDownClass" is-config="true" duration-ms="21" started-at="2018-03-11T23:10:07Z" finished-at="2018-03-11T23:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.thecalculatorsite.test.cucumber.CalculatorFeatureTest -->
+    </test> <!-- Calculator -->
+  </suite> <!-- calculator suite -->
+</testng-results>
